@@ -94,4 +94,5 @@ sm = Seq ["s" := C 0,
                         )
         ]
 
---lookup "s" $ run sum [("n",5)]
+-- *Main> lookup "s" $ run sm [("n",100)]
+-- Just 5050.0
